@@ -1,0 +1,31 @@
+{
+  "name": "angular-tree.js",
+  "version": "0.1.0",
+  "authors": [
+    "Robin Bressan <robin@buddey.net>"
+  ],
+  "description": "Module to use tree.js into your AngularJS applications",
+  "main": "angular-tree.min.js",
+  "keywords": [
+    "tree"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "src",
+    "build",
+    "Makefile",
+    "package.json"
+  ],
+  "dependencies": {
+    "angular": "~1.2.21",
+    "tree.js": "~1.0.1"
+  },
+  "devDependencies": {
+    "almond": "~0.2.9",
+    "angular-mocks": "~1.2.21"
+  }
+}
