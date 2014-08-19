@@ -7,7 +7,7 @@
 
         var $treeTemplateFactory;
 
-        beforeEach(module('angular-tree'));
+        beforeEach(module('ngTree'));
 
         beforeEach(inject(function($injector) {
             $treeTemplateFactory = $injector.get('$treeTemplateFactory');

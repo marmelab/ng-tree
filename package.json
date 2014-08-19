@@ -1,6 +1,6 @@
 {
-  "name": "angular-tree",
-  "repository": "https://github.com/marmelab/angular-tree",
+  "name": "ng-tree",
+  "repository": "https://github.com/marmelab/ng-tree",
   "devDependencies": {
     "karma": "~0.12.21",
     "karma-chrome-launcher": "0.1.3",

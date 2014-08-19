@@ -11,7 +11,7 @@
             data,
             q;
 
-        beforeEach(module('angular-tree'));
+        beforeEach(module('ngTree'));
 
         beforeEach(function() {
             $treeProxyFactory = jasmine.createSpy('$treeProxyFactory').andCallFake(function(tree) {

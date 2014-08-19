@@ -9,7 +9,7 @@
             $treeDecoratorFactory,
             data;
 
-        beforeEach(module('angular-tree'));
+        beforeEach(module('ngTree'));
 
         beforeEach(inject(function($injector) {
             $treeFactory = $injector.get('$treeFactory');

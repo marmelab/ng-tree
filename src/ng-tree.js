@@ -2,7 +2,7 @@
 define(function(require) {
     'use strict';
 
-    var module = angular.module('angular-tree', []);
+    var module = angular.module('ngTree', []);
 
     module.factory('$treeDecoratorFactory', require('service/treeDecoratorFactory'));
     module.factory('$treeProxyFactory', require('service/treeProxyFactory'));

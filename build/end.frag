@@ -1,2 +1,2 @@
-    return require('angular-tree');
+    return require('ng-tree');
 }));

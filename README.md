@@ -1,4 +1,4 @@
-angular-tree.js
+ngTree
 ===============
 
 Module to use [tree.js](https://github.com/marmelab/tree.js) into your AngularJS applications.
@@ -8,14 +8,14 @@ Module to use [tree.js](https://github.com/marmelab/tree.js) into your AngularJS
 It is available with bower:
 
 ```
-bower install angular-tree.js
+bower install ng-tree
 ```
 
 Then add the retrieved files to your HTML layout:
 
 ```html
 <script type="text/javascript" src="/path/to/bower_components/tree.js/tree.min.js"></script>
-<script type="text/javascript" src="/path/to/bower_components/angular-tree.js/angular-tree.min.js"></script>
+<script type="text/javascript" src="/path/to/bower_components/ng-tree/ng-tree.min.js"></script>
 ```
 
 You can also use it with [RequireJS](http://requirejs.org/) as an AMD module.
@@ -23,7 +23,7 @@ You can also use it with [RequireJS](http://requirejs.org/) as an AMD module.
 Then add `angular-tree` as dependency for your AngularJS application:
 
 ```javascript
-var app = angular.module('YOUR_APP', ['angular-tree']);
+var app = angular.module('YOUR_APP', ['ngTree']);
 ```
 
 # Configuration

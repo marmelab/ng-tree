@@ -8,7 +8,7 @@ module.exports = function (config) {
             {pattern: 'bower_components/angular/angular.js', included: true},
             {pattern: 'bower_components/angular-mocks/angular-mocks.js', included: true},
             {pattern: 'bower_components/tree.js/tree.min.js', included: true},
-            {pattern: 'angular-tree.min.js', included: true},
+            {pattern: 'ng-tree.min.js', included: true},
 
             // test files
             {pattern: 'test/src/**/*.js', included: true},

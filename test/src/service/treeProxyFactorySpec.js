@@ -11,7 +11,7 @@
             data,
             q;
 
-        beforeEach(module('angular-tree'));
+        beforeEach(module('ngTree'));
 
         beforeEach(function() {
             $treeDecoratorFactory = jasmine.createSpy('$treeDecoratorFactory').andCallFake(function(tree) {

@@ -10,7 +10,7 @@
             $scope,
             $q;
 
-        beforeEach(module('angular-tree'));
+        beforeEach(module('ngTree'));
 
         beforeEach(inject(function($injector) {
             $rootScope = $injector.get('$rootScope');

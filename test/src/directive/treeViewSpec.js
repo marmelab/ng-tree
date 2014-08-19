@@ -11,7 +11,7 @@
             $treeFactory,
             element;
 
-        beforeEach(module('angular-tree'));
+        beforeEach(module('ngTree'));
 
         beforeEach(inject(function($injector) {
             $compile = $injector.get('$compile');
@@ -46,12 +46,11 @@
 
             element = $compile('<tree-view tree="testTree"></tree-view>')($scope);
             $scope.$digest();
-            //console.log(element);
         }));
 
         it('should generate the good view', function() {
             var rootUl = element.find('ul');
-            expect(rootUl.hasClass('tree')).toBe(true);console.log(rootUl.find('tree-child-view'));
+            expect(rootUl.hasClass('tree')).toBe(true);
             expect(rootUl.find('tree-child-view').length).toBe(1);
 
             var dupuisLi = rootUl.find('tree-child-view').find('li');
