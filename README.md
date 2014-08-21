@@ -1,7 +1,7 @@
 ngTree
 ===============
 
-Module to use [tree.js](https://github.com/marmelab/tree.js) into your AngularJS applications.
+Module to use [tree.js](https://github.com/marmelab/tree.js) in your AngularJS applications.
 
 # Installation
 
@@ -20,7 +20,7 @@ Then add the retrieved files to your HTML layout:
 
 You can also use it with [RequireJS](http://requirejs.org/) as an AMD module.
 
-Then add `angular-tree` as dependency for your AngularJS application:
+Then add `ngTree` as dependency for your AngularJS application:
 
 ```javascript
 var app = angular.module('YOUR_APP', ['ngTree']);
