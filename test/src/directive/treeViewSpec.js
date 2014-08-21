@@ -51,16 +51,22 @@
         it('should generate the good view', function() {
             var rootUl = element.find('ul');
             expect(rootUl.hasClass('tree')).toBe(true);
-            expect(rootUl.find('tree-child-view').length).toBe(1);
+            expect(rootUl.find('tree-child-view').length).toBe(3);
+            expect(rootUl.find('tree-view').length).toBe(1);
 
-            var dupuisLi = rootUl.find('tree-child-view').find('li');
+            var dupuisLi = rootUl.find('tree-child-view').eq(0).find('li');
             expect(dupuisLi.hasClass('collapsed')).toBe(false);
             expect(dupuisLi.find('a').hasClass('name'));
             expect(dupuisLi.find('a').html()).toBe('dupuis');
             expect(dupuisLi.find('tree-view').length).toBe(1);
 
-            var dupuisUl = dupuisLi.find('tree-child-view').find('ul');
+            var dupuisUl = dupuisLi.find('tree-view').eq(0).find('ul');
             expect(dupuisUl.hasClass('tree')).toBe(true);
+            expect(dupuisUl.find('tree-child-view').length).toBe(1);
+
+            var prunelleLi = dupuisUl.find('tree-child-view').eq(0).find('li');
+            expect(prunelleLi.hasClass('collapsed')).toBe(true);
+            expect(prunelleLi.find('tree-view').length).toBe(0);
         });
     });
 }());

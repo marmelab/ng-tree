@@ -5,7 +5,7 @@
     "Robin Bressan <robin@buddey.net>"
   ],
   "description": "Module to use tree.js into your AngularJS applications",
-  "main": "angular-tree.min.js",
+  "main": "ng-tree.min.js",
   "keywords": [
     "tree"
   ],
