@@ -1,6 +1,6 @@
 {
   "name": "angular-tree.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "authors": [
     "Robin Bressan <robin@buddey.net>"
   ],
@@ -22,7 +22,7 @@
   ],
   "dependencies": {
     "angular": "~1.2.21",
-    "tree.js": "~1.0.1"
+    "tree.js": "~1.0.2"
   },
   "devDependencies": {
     "almond": "~0.2.9",
