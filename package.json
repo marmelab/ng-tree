@@ -12,7 +12,7 @@
   "main": "ng-tree.min.js",
   "dependencies": {
     "angular": "~1.2.21",
-    "tree.js": "~1.0.2"
+    "hookable-tree": "~1.0.2"
   },
   "devDependencies": {
     "karma": "~0.12.21",
