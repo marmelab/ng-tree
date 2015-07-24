@@ -1,5 +1,6 @@
 {
   "name": "ng-tree",
+  "version": "0.1.1",
   "authors": [
     "Robin Bressan <robin@buddey.net>"
   ],
@@ -16,7 +17,7 @@
   },
   "devDependencies": {
     "almond": "~0.2.9",
-    "angular-mocks": "~1.2.21",      
+    "angular-mocks": "~1.2.21",
     "karma": "~0.12.21",
     "karma-chrome-launcher": "0.1.3",
     "karma-jasmine": "0.1.5",
